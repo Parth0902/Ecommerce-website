@@ -334,14 +334,20 @@ font-size: 14px;
 
 #sm-banner .banner-box{
   display: flex;
-  height: 40vh;
-  width:35%;
+  height: 50vh;
+  min-width: 800px;
   flex-direction: column;
+  align-items: flex-start;
   background-image: url(img/banner/b17.jpg);
   justify-content: center;
   padding: 0 45px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+#sm-banner .banner-box-2{
+    background-image: url(img/banner/b10.jpg);
 }
 .banner-box{
     box-shadow:20px 20px 34px rgb(0,0,0,0.23) ;
@@ -355,9 +361,62 @@ font-size: 14px;
 #sm-banner .banner-box h2{
     font-size:50px ;
     padding-bottom: 5px;
+    color: white;
 }
 
 #sm-banner .banner-box span{
 padding-bottom: 25px;
 font-size: 18px;
+color: white;
+}
+
+#sm-banner .banner-box button:hover{
+    cursor: pointer;
+    background-color: #088178;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#text-banner .txt-banner{
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 25vh;
+    background-image: url(img/banner/b7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    box-shadow:20px 20px 34px rgb(0,0,0,0.23) ;
+}
+
+#text-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+.txt-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight:900;
+}
+.txt-banner h4{
+    color:#ec544e;
+    font-size: 25px;
+    font-weight:800;
+}
+
+#text-banner .txt-2{
+    background-image: url(img/banner/b4.jpg);
+}
+#text-banner .txt-3{
+    background-image: url(img/banner/b18.jpg);
 }
