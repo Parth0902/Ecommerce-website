@@ -39,6 +39,19 @@ p{
 
 }
 
+button.normal{
+    width:120px;
+    height:40px;
+    font-size:15px;
+    background-color: white;
+    font-weight:700;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body{
     width:100%;
 }
@@ -279,4 +292,72 @@ font-size: 14px;
     bottom: 20px;
     right: 40px;
     
+}
+
+/* Banner */
+
+#banner{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/banner/b2.jpg);
+    width:100%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#banner h4{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+#banner h2{
+    color: white;
+    padding-bottom: 25px;
+}
+
+#banner span{
+    color: red;
+}
+#banner button:hover{
+    background-color: #088178;
+    color: white;
+}
+
+
+/* banners */
+
+#sm-banner .banner-box{
+  display: flex;
+  height: 40vh;
+  width:35%;
+  flex-direction: column;
+  background-image: url(img/banner/b17.jpg);
+  justify-content: center;
+  padding: 0 45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-box{
+    box-shadow:20px 20px 34px rgb(0,0,0,0.23) ;
+}
+#sm-banner .banner-box h4{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+#sm-banner .banner-box h2{
+    font-size:50px ;
+    padding-bottom: 5px;
+}
+
+#sm-banner .banner-box span{
+padding-bottom: 25px;
+font-size: 18px;
 }
