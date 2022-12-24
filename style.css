@@ -420,3 +420,127 @@ color: white;
 #text-banner .txt-3{
     background-image: url(img/banner/b18.jpg);
 }
+
+/* News Letter */
+
+#newsletter{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 20vh;
+    align-items: center;
+    background-image: url(img/banner/b25.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: cover;
+    margin:0 80px;
+    margin-bottom: 35px;
+    
+}
+
+#newsletter h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+#newsletter p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsletter p span{
+    
+    color: #ffbd27;
+}
+
+#newsletter .news-form input{
+    height:3.125rem;
+    padding:0 1rem;
+    font-size:14px;
+    min-width: 380px;
+    border-radius:4px;
+    outline: none;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+
+}
+
+#newsletter .news-form button{
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    height:3.0rem ;
+    margin-top: 2px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+
+
+}
+
+#newsletter form{
+    display: flex;
+    
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 18px;
+    margin:0 0 8px 0;
+}
+
+footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom:10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer  .follow i{
+    color:#465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .row img{
+    border:1px solid #088178;
+    border-radius: 6px;
+
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .copyright{
+    
+    bottom: 0px;
+}
